@@ -26,6 +26,7 @@ pushd "$WEB_ROOT/web/wp-content/plugins" >> /dev/null
   git clone ${CACHE_DIR}/civicrm/civicrm-packages.git                 -b "$CIVI_VERSION" civicrm/civicrm/packages
   api4_download_conditional civicrm/civicrm                                              civicrm/civicrm/ext/api4
   git clone ${CACHE_DIR}/civicrm/civicrm-demo-wp.git                  -b master          civicrm-demo-wp
+  git clone ${CACHE_DIR}/gutenberg/civicrm-gutenberg-blocks.git         -b master          civicrm-gutenberg-blocks
   git clone ${CACHE_DIR}/civicrm/civivolunteer.git                    -b "$VOL_VERSION"  civicrm/civicrm/tools/extensions/civivolunteer
   git clone ${CACHE_DIR}/ginkgostreet/org.civicrm.angularprofiles.git -b "$NG_PRFL_VERSION" civicrm/civicrm/tools/extensions/org.civicrm.angularprofiles
 

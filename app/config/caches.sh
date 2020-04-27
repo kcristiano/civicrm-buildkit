@@ -24,6 +24,7 @@ git_cache_setup "https://github.com/civicrm/civicrm-packages.git"            "$C
 git_cache_setup "https://github.com/civicrm/civicrm-joomla.git"              "$CACHE_DIR/civicrm/civicrm-joomla.git"
 git_cache_setup "https://github.com/civicrm/civicrm-wordpress.git"           "$CACHE_DIR/civicrm/civicrm-wordpress.git"
 git_cache_setup "https://github.com/civicrm/civicrm-demo-wp.git"             "$CACHE_DIR/civicrm/civicrm-demo-wp.git"
+git_cache_setup "https://develop.tadpole.cc/plugins/civicrm-gutenberg-blocks.git" "$CACHE_DIR/gutenberg/civicrm-gutenberg-blocks.git"
 git_cache_setup "https://github.com/eileenmcnaughton/civicrm_developer.git"  "$CACHE_DIR/eileenmcnaughton/civicrm_developer.git"
 git_cache_setup "https://github.com/civicrm/api4.git"                        "$CACHE_DIR/civicrm/api4.git"
 
