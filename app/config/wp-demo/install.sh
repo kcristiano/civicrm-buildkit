@@ -63,6 +63,7 @@ wp plugin install civicrm-admin-utilities
 wp plugin install gutenberg
 wp plugin install classic-editor --activate
 wp plugin activate civicrm-gutenberg-blocks
+wp plugin activate disable-health-check
 
 civicrm_apply_demo_defaults
 cv ev 'if(is_callable(array("CRM_Core_BAO_CMSUser","synchronize"))){CRM_Core_BAO_CMSUser::synchronize(FALSE);}else{CRM_Utils_System::synchronizeUsers();}'
