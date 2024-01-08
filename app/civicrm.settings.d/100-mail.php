@@ -1,7 +1,5 @@
 <?php
- if (!defined('CIVICRM_MAIL_LOG')) {
-   define('CIVICRM_MAIL_LOG', '/dev/null');
- }
+
 if (!defined('CIVICRM_MAIL_LOG_AND_SEND')) {
   define( 'CIVICRM_MAIL_LOG_AND_SEND', 1);
 }
