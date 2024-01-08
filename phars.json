@@ -18,14 +18,14 @@
    },
 
    "civistrings":  {
-     "url": "https://download.civicrm.org/civistrings/civistrings.phar-2022-02-16-75f490ca",
-     "sha256": "e2258ff4302bb51d60cb7c094ca5401c6d36a8e8ca9a4921afc4e8e61687b90e",
+     "url": "https://download.civicrm.org/civistrings/civistrings.phar-2022-08-30-c035da67",
+     "sha256": "657068d8302cdbd60387e634a6bfc6052d3e38005f9f4ed7c064c8e7f8b9a15e",
      "buildkit-path": "bin/civistrings"
    },
 
    "civix":  {
-     "url": "https://download.civicrm.org/civix/civix-23.08.2.phar",
-     "sha256": "85b65e516f95425f3f62fff3fc863c8571a793cbd21cf8f1e1913a186f6b9ede",
+     "url": "https://download.civicrm.org/civix/civix-23.12.2.phar",
+     "sha256": "863062749f0c0090d31d2b90f2a17ce682b84cd484f6633c33ed4a3c182b7099",
      "buildkit-path": "bin/civix"
    },
 
@@ -105,8 +105,8 @@
    },
 
    "wp":  {
-     "url": "https://github.com/wp-cli/wp-cli/releases/download/v2.8.1/wp-cli-2.8.1.phar",
-     "sha256": "8503cd579480d0cb237b4bef35e0c3da11c2ab872a1bc8f26d2da0ca0729b6a7",
+     "url": "https://github.com/wp-cli/wp-cli/releases/download/v2.9.0/wp-cli-2.9.0.phar",
+     "sha256": "af6b7ccc21ed0907cb504db5a059f0e120117905a6017bfdd4375cee3c93d864",
      "buildkit-path": "bin/wp"
    }
 }

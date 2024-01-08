@@ -34,6 +34,9 @@
 ###############################################################################
 ## Common variables
 
+## Should we print lots of debug info?
+VERBOSE=
+
 ## The name of on-going action (eg "create" or "reset")
 ACTION=
 
@@ -70,7 +73,7 @@ PRIVATE_ROOT=
 ## Root directory where we store cached copies of git repositories
 ## (default-git: TMPDIR/git-cache)
 ## (default-sys: CIVIBUILD_HOME/.civibuild/cache)
-CACHE_DIR=
+CACHE_DIR="/Users/kcristiano/projects/buildkit/app/tmp/git-cache"
 
 ## Time to wait before allowing updates to git/svn caches (seconds)
 CACHE_TTL=60
@@ -209,7 +212,8 @@ CIVI_EXT_URL=
 
 ## List of extensions to enable on `*-demo` builds
 ## Note: Some of these are enabled by default on current releases. That doesn't hurt anything, and it's handy for testing older releases.
-CIVI_DEMO_EXTS='civirules civisualize cividiscount org.civicrm.search_kit org.civicrm.search org.civicrm.contactlayout civicrm_admin_ui message_admin org.civicrm.afform org.civicrm.afform_admin'
+CIVI_DEMO_EXTS='civisualize cividiscount org.civicrm.search_kit org.civicrm.search org.civicrm.contactlayout civiimport civicrm_admin_ui message_admin org.civicrm.afform org.civicrm.afform_admin'
+#CIVI_DEMO_EXTS='civirules' ## Pending smarty update
 
 ## DB credentials for Civi test DB
 ## (suggested: autogenerate via 'amp create -f --root="$WEB_ROOT" --name=civi --prefix=TEST_ --skip-url')
