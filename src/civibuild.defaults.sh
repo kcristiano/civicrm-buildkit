@@ -73,7 +73,7 @@ PRIVATE_ROOT=
 ## Root directory where we store cached copies of git repositories
 ## (default-git: TMPDIR/git-cache)
 ## (default-sys: CIVIBUILD_HOME/.civibuild/cache)
-CACHE_DIR=
+CACHE_DIR="/home/kcristiano/projects/buildkit/app/tmp/git-cache"
 
 ## Time to wait before allowing updates to git/svn caches (seconds)
 CACHE_TTL=60
